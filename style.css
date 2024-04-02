@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.image {
+    background-image: url(./images/pexels-pok-rie-130879.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+}
+
+.first-container{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.first-container .body-contents #title{
+    padding-bottom: 16px;
+}
+
+.first-container .body-contents{
+    max-width: 1000px;
+}
+
