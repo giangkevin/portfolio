@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 ul{
@@ -28,25 +28,23 @@ a{
     text-decoration: inherit;
 }
 
-.image {
-    background-image: url(./images/pexels-pok-rie-130879.jpg);
-    background-size: cover;
-    height: 60vh;
-    width: 100vw;
-}
-
-.first-container{
-    padding: 20px 0px;
+.introduction{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.first-container .body-contents #title{
-    padding-bottom: 16px;
+.introduction .right-content{
+    max-width: 500px;
+}
+.introduction .left-content{
+    text-align: center;
 }
 
-.first-container .body-contents{
-    max-width: 1000px;
+.introduction .left-content img{
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 150px;
 }
-
