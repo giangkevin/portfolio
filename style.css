@@ -1,31 +1,81 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Lato";
     background-color: #fcfcfb;
     color: #1a1a1c;
 }
 
-
-
-.navbar{
+.navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 40px;
     flex-wrap: wrap;
+    padding-left: 50px ;
+    padding-right: 50px;
 }
 
-ul{
+.left-contents {
+    margin-top: 20px; 
+}
+
+.right-contents h2 {
+    margin-bottom: 0; 
+}
+
+ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-contents {
+        margin-top: 10px; 
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+.introduction {
+    padding: 80px;
+    background-color: #b7aa9f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fcfcfb;
+}
+.introduction .right-content {
+    max-width: 500px;
+}
+
+.introduction .left-content {
+    text-align: center;
+}
+
+.introduction .left-content img {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 a{
@@ -33,60 +83,39 @@ a{
     text-decoration: inherit;
 }
 
-.introduction{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 250px;
-    align-items: center;
-}
-
-.introduction .right-content{
-    max-width: 500px;
-}
-
-.introduction, h2, h1{
-    padding-bottom: 3px;
-}
-.introduction .left-content{
-    text-align: center;
-}
-
-.introduction .left-content img{
-    height: auto;
-    width: auto;
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.profil{
+.profil {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 250px
+    margin-left: 20px;
+    margin-left: 90px;
 }
 
-.profil .a.propos{
-    max-width: 850px;
+.profil .a.propos {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    gap: 10px;
 }
 
-.parcours{
-    padding-top: 15px;
+
+.parcours {
+    padding-top: 25px;
     font-size: 21px;
     font-weight: 700;
 }
 
-.parcours h3{
+.parcours h3 {
     padding-bottom: 10px;
 }
 
-
-.formation{
+.formation {
     display: flex;
     gap: 5px;
 }
 
-.circle{
+.circle {
     width: 15px;
     height: 15px;
     border:  3px solid #b7aa9f;
@@ -94,15 +123,50 @@ a{
     align-self: flex-start;
 }
 
-.information{
-    display : flex;
+.parcours .information {
+    display: flex;
     flex-direction: column;
     gap: 28px;
 }
-.vl{
+
+.vl {
     margin-left: 7px;
     width: 3px;
     background-color: #dfd3cb;
     height: 150px;
 }
 
+.titre {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.competences{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenu{
+    max-width: 600px;
+}
+
+.competences-techniques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenaires{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.contenaires .information{
+    text-align: center;
+}
+
+.contenaires img{
+    height: 100px;
+    width: 100px;
+}
