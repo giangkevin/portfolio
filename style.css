@@ -14,7 +14,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 25px 0px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 ul{
@@ -38,6 +40,10 @@ a{
 .introduction .right-content{
     max-width: 500px;
 }
+
+.introduction, h2, h1{
+    padding-bottom: 3px;
+}
 .introduction .left-content{
     text-align: center;
 }
@@ -45,6 +51,6 @@ a{
 .introduction .left-content img{
     height: auto;
     width: auto;
-    max-height: 150px;
-    max-width: 150px;
+    max-height: 100px;
+    max-width: 100px;
 }
