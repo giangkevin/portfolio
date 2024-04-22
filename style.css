@@ -151,7 +151,7 @@ a{
 }
 
 .competences-techniques .contenu, .competences-humaines .contenu{
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .competences-techniques, .competences-humaines{
@@ -171,19 +171,17 @@ a{
 }
 
 .contenaires img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
-/* .competences-humaines{
+.cv{
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+    gap: 30px;
+}
 
-/* .competences-humaines .contenaires{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-} */
+.cv iframe{
+    flex-shrink: 1;
+}
