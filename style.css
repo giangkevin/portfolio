@@ -157,7 +157,9 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
+
 
 .contenaires{
     display: flex;
@@ -174,6 +176,21 @@ a{
     width: 80px;
 }
 
+.competences .grille-competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.grille-competences{
+    margin-top: 25px;
+}
+.grille-competences iframe{
+    flex-shrink: 1;
+    max-width: 100%;
+}
+
 .cv{
     display: flex;
     flex-direction: column;
@@ -181,6 +198,7 @@ a{
     gap: 25px;
     margin-bottom: 50px;
 }
+
 
 .cv iframe{
     flex-shrink: 1;
