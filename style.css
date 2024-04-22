@@ -83,6 +83,10 @@ a{
     text-decoration: inherit;
 }
 
+.profil h2{
+    padding-top: 20px;
+}
+
 .profil {
     display: flex;
     flex-direction: column;
@@ -146,11 +150,11 @@ a{
     margin-bottom: 50px;
 }
 
-.contenu{
+.competences-techniques .contenu, .competences-humaines .contenu{
     max-width: 600px;
 }
 
-.competences-techniques{
+.competences-techniques, .competences-humaines{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,3 +174,16 @@ a{
     height: 100px;
     width: 100px;
 }
+
+/* .competences-humaines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .competences-humaines .contenaires{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+} */
