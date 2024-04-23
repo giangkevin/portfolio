@@ -161,17 +161,17 @@ a{
 }
 
 
-.contenaires{
+.competences .contenaires{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
 }
-.contenaires .information{
+.competences .contenaires .information{
     text-align: center;
 }
 
-.contenaires img{
+.competences .contenaires img{
     height: 80px;
     width: 80px;
 }
@@ -262,4 +262,64 @@ a{
     color: #fcfcfb;
     padding-bottom: 25px;
     margin-bottom: 25px;
+}
+
+.stages{
+    margin-left: 90px;
+}
+
+.stages h3{
+    padding-bottom: 20px;
+}
+
+.stages .information {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stages {
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.projets{
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.projets .contenaires img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.projets .contenaires p{
+    max-width: 500px;
+}
+
+.projets .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.veilles-technologiques{
+    margin-left: 90px;
+}
+
+.veilles-technologiques .contenu{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.veilles-technologiques .contenu p{
+    max-width: 800px;
 }
